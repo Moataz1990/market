@@ -1,0 +1,209 @@
+.navbar,.dropdown-menu {
+    background-color: greenyellow !important;
+}
+
+
+.nav-link{
+    color: black !important;
+    font-size: 14px;
+    font-family: Georgia, 'Times New Roman', Times, serif !important;
+    font-weight: bold !important;
+    
+}
+
+.nav-link:hover{
+background-color:gray;
+border-radius: 10px;
+}
+.fa-shopping-cart,.fa-user-circle-o{
+    font-size: 32px !important;
+}
+
+h5,p{
+color: black !important;
+font-weight: bold !important;
+}
+.text{
+    color: gray;
+    font-size: 12px;
+    font-weight: 300;
+    font-family: 'Times New Roman', Times, serif;
+}
+.fa-truck,.fa-phone,.fa-credit-card-alt{
+    font-size: 50px !important;
+    color: green;
+    margin-right: 10px;
+}
+.freeShiooing,.support,.payOnline{
+    
+    display: flex;
+    width: 350px;
+    height: 100px;
+    background-color: #fff;
+    box-shadow: 2px 4px 5px gray;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+.ads{
+    background-color: #fff;
+    box-shadow: 2px 8px 10px gray;
+    justify-content: center;
+    align-items: center;
+    
+    margin-bottom: 20px;
+    
+}
+.info{
+    margin-left: 10px;
+    font-size: 12px;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+.maincard{
+    margin-top: 35px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+  
+    .sec{
+        margin-top: 20px;
+        text-align: center;
+    }
+ .sec > h1{
+      font-size: 35px;
+      font-family: Georgia, 'Times New Roman', Times, serif;
+       font-weight: bold;
+       text-shadow: 2px 2px 4px black;
+       color: green;
+      
+  }
+  .link{
+    font-size: 35px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+     font-weight: bold;
+     text-shadow: 2px 2px 4px black;
+     color: green;
+  }
+  .fruts,.vege{
+      margin-top: 20px;
+      justify-content: center;
+     
+  }
+  .card{
+      width: 250px;
+      height: auto;
+      margin-bottom: 5px;
+      
+  }
+span{
+    font-size: 12px;
+}
+  .btn-primary{
+      width: 100%;
+      background-color: green;
+  }
+  .footer{
+      width: 100%;
+      height: 250px;
+      background-color: greenyellow;
+
+      /* display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap; */
+  }
+  .quick{
+      margin-top: 50px;
+  }
+ .medi{
+    margin-top: 50px;
+    margin-left: 100px;
+ }
+ .copy{
+     margin-top: 20px;
+     /* margin-left: 30px; */
+    
+    
+ }
+ h4{
+     text-align: center;
+     
+ }
+
+  @media screen and (max-width: 600px) {
+    .freeShiooing,.support,.payOnline,.card {
+        width: 100%;
+    }
+}
+@media screen and (max-width: 600px) {
+    .footer {
+        width: 100%;
+        height: 100%;
+    }
+}
+h6{
+    text-align: center;
+    font-weight: 800;
+    font-size: 15px;
+}
+.dil{
+    background-color: greenyellow;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+    height: 25px;
+  
+}
+
+label{
+    width: 240px;
+    display: inline-block;
+    text-align:center;
+    font: outline;
+    font-size: 18px;
+    
+}
+input{
+    font-size: 14px;
+    font-style: italic;
+    font-weight: bold;
+    
+    font-family: 'Times New Roman', Times, serif;
+    color:black;
+}
+.btnn{
+    margin-left: 50px;  
+    margin-bottom: 20px;
+}
+.form-group{
+    margin-top: 20px;
+}
+
+.bt-sub:hover{
+    border-radius: 150px;
+    background-color: gray;
+}
+.bt-sub{
+    width: 150px;
+    height: 50px;
+    background-color: #fff;
+    box-shadow: 2px 4px 5px gray;
+    justify-content: center;
+    align-items: center;
+}
+input:active{
+    background: gray;
+}
+.about{
+    margin-top: 30px;
+    margin-left: 20px;
+}
+.txt{
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
